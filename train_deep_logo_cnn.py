@@ -32,6 +32,8 @@ import os
 import common
 import model
 
+#os.environ["CUDA_VISIBLE_DEVICES"] = "-1" # 禁用GPU
+
 FLAGS = tf.app.flags.FLAGS
 
 tf.app.flags.DEFINE_string(
